@@ -27,17 +27,39 @@ Last Edited 2023/07/19
 
 .main-content-section
 {
+    float: right;
     width: 80%;
 }
 
-.headline-project img
+#projects-showcase
 {
-    position: relative;
-    width: 100%;
+    border: 5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row
+}
+
+#projects-showcase div
+{
+    border: 5px solid blue;
+}
+
+.project
+{
+    flex: 1 1 500px;
+}
+
+#headline-project
+{
+    flex: 1 1 1200px;
 }
 
 .project img
 {
-    position: relative;
-    width: 50%;
+    width: 45%;
+}
+
+#headline-project img
+{
+    width: 90%;
 }
