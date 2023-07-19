@@ -2,6 +2,42 @@
 ethan (average-kirigiri-enjoyer)
 SCS Boot Camp Module 2 Weekly Challenge - Professional Coding Portfolio
 Created 2023/07/17
-Last Edited 2023/07/17
+Last Edited 2023/07/19
 */
 
+:root
+{
+    --mint-green: #00ff83;
+    --ruby-red: #ff0045;
+    --indigo: #5900ff;
+    --lilac: #d5beff;
+}
+
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.title-bar-image
+{
+    width: 100%;
+}
+
+.main-content-section
+{
+    width: 80%;
+}
+
+.headline-project img
+{
+    position: relative;
+    width: 100%;
+}
+
+.project img
+{
+    position: relative;
+    width: 50%;
+}
