@@ -23,6 +23,8 @@ Last Edited 2023/07/19
 .title-bar-image
 {
     width: 100%;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .main-content-section
@@ -36,7 +38,6 @@ Last Edited 2023/07/19
     border: 5px solid black;
     display: flex;
     flex-wrap: wrap;
-    flex-direction:row
 }
 
 #projects-showcase div
@@ -46,20 +47,29 @@ Last Edited 2023/07/19
 
 .project
 {
-    flex: 1 1 500px;
+    height: 250px;
+    width: 500px;
+    flex: 0 1 50%;
 }
 
 #headline-project
 {
+    height: 500px;
+    width: 1000px;
     flex: 1 1 1200px;
+    background-image: url(./images/horiseon-social-solutions-preview-image.jpg);
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .project img
 {
-    width: 45%;
+    width: 100%;
+    height: 100%;
 }
 
 #headline-project img
 {
-    width: 90%;
+    width: 100%;
+    height: 100%;
 }
