@@ -46,7 +46,6 @@ body
 .header a
 {
     color: var(--light-grey);
-    background-color: var(--dark-grey);
     padding: 10px;
 }
 
@@ -61,6 +60,25 @@ body
     font-size: 32px;
     margin-top: 32px;
     margin-right: 22px;
+}
+
+@media screen and (max-width: 862px)
+{
+    .header
+    {
+        height: 180px;
+    }
+
+    .header ul
+    {
+        float: left;
+        margin-left: 22px;
+    }
+
+    .header li
+    {
+        margin-top: 16px;
+    }
 }
 
 .title-bar-image
