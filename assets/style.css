@@ -59,12 +59,18 @@ body
     margin-bottom: 25px;
 }
 
-.section-title
+.main-content-section
 {
     display: inline-block;
+    width: 100%;
+}
+
+.section-title
+{
+    float: left;
     font-size: 32px;
-    width: 27%; 
-    border: solid 2px var(--mint-green);
+    width: 27%;
+    height: 36px;
 }
 
 .section-title h2
@@ -74,9 +80,8 @@ body
     margin-left: 10px;
 }
 
-.main-content-section
+.section-content
 {
-    display: block;
     float: right;
     padding-left: 2%;
     margin-right: 2%;
