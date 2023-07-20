@@ -7,12 +7,9 @@ Last Edited 2023/07/20
 
 :root
 {
-    --mint-green: #00ff83;
-    --ruby-red: #ff0045;
     --indigo: #5900ff;
-    --lilac: #d5beff;
     --dark-grey: #292929;
-    --light-grey: #e9e9e9;
+    --light-grey: #f3f3f3;
 }
 
 *
@@ -40,7 +37,7 @@ body
 {
     display: inline-block;
     padding: 10px 15px 10px 50px;
-    margin: 15px 0px 15px 0px;
+    margin: 15px 25px 15px 0px;
     font-size: 48px;
     color: var(--light-grey);
     background-color: var(--indigo);
@@ -49,6 +46,8 @@ body
 .header a
 {
     color: var(--light-grey);
+    background-color: var(--dark-grey);
+    padding: 10px;
 }
 
 .header ul
@@ -60,9 +59,8 @@ body
 {
     display: inline-block;
     font-size: 32px;
-    padding: 10px;
-    margin-top: 22px;
-    margin-right: 20px;
+    margin-top: 32px;
+    margin-right: 22px;
 }
 
 .title-bar-image
