@@ -2,7 +2,7 @@
 ethan (average-kirigiri-enjoyer)
 SCS Boot Camp Module 2 Weekly Challenge - Professional Coding Portfolio
 Created 2023/07/17
-Last Edited 2023/07/19
+Last Edited 2023/07/20
 */
 
 :root
@@ -26,31 +26,26 @@ body
     font-size: 24px;
 }
 
-.header
-{
-    border: solid 3px #00ff83;
-}
-
 .header h1
 {
     display: inline-block;
-    padding: 25px;
+    padding: 15px;
+    margin: 10px;
     font-size: 48px;
 }
 
 .header ul
 {
     float: right;
-    border: solid 3px #d5beff;
 }
 
 .header li
 {
-    font-size: 36px;
-    padding: 15px;
-    margin: 10px;
     display: inline-block;
-    border: solid 3px #5900ff;
+    font-size: 32px;
+    padding: 10px;
+    margin-top: 22px;
+    margin-right: 20px;
 }
 
 .title-bar-image
@@ -64,9 +59,16 @@ body
 
 .main-content-section
 {
-    float: right;
     display: block;
-    width: 80%;
+    float: right;
+    margin-right: 25px;
+    width: 70%;
+}
+
+.section-title
+{
+    display: inline;
+    font-size: 32px;
 }
 
 #projects-showcase
@@ -79,7 +81,6 @@ body
 .project
 {
     height: 250px;
-    width: 500px;
     flex: 1 1 500px;
     border: solid 8px var(--ruby-red);
 }
@@ -87,8 +88,20 @@ body
 .headline-project
 {
     height: 500px;
-    width: 1000px;
     flex: 1 1 1200px;
+}
+
+.project div
+{
+    display: inline-block;
+    margin-top: 140px;
+    padding: 10px 15px 12px 25px;
+    background-color: var(--ruby-red);
+}
+
+.headline-project div
+{
+    margin-top: 370px;
 }
 
 #challenge-1
