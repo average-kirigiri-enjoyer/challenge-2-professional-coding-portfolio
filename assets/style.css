@@ -5,6 +5,7 @@ Created 2023/07/17
 Last Edited 2023/07/20
 */
 
+/* defines variables for HTML colour codes */
 :root
 {
     --indigo: #5900ff;
@@ -12,6 +13,7 @@ Last Edited 2023/07/20
     --light-grey: #f3f3f3;
 }
 
+/* sets default padding & margin for elements, sets padding & border to be included in element size */
 *
 {
     box-sizing: border-box;
@@ -19,6 +21,7 @@ Last Edited 2023/07/20
     margin: 0;
 }
 
+/* changes default font, text size, text colour, and background colour, and sets minimum page width*/
 body
 {
     font-family: Raleway;
@@ -28,11 +31,13 @@ body
     background-color: var(--light-grey);
 }
 
+/* sets background colour for header */
 .header
 {
     background-color: var(--dark-grey);
 }
 
+/* sets display settings for my name in the header */
 .header h1
 {
     display: inline-block;
@@ -43,17 +48,20 @@ body
     background-color: var(--indigo);
 }
 
+/* links to website sections floats to the right of the header */
+.header ul
+{
+    float: right;
+}
+
+/* changes display settings for links to website sections */
 .header a
 {
     color: var(--light-grey);
     padding: 10px;
 }
 
-.header ul
-{
-    float: right;
-}
-
+/* links to website sections are displayed side-by-side, changes their size and margins */
 .header li
 {
     display: inline-block;
@@ -62,6 +70,7 @@ body
     margin-right: 22px;
 }
 
+/* below a page width of 862px, header expands vertically and links to website sections is moved below my name, margins slightly changed */
 @media screen and (max-width: 862px)
 {
     .header
@@ -81,6 +90,7 @@ body
     }
 }
 
+/* sets display settings for a title bar image feature me sitting in the setting of Hollow Knight */
 .title-bar-image
 {
     background-image: url(./images/sitting-at-greenpath-bench-wide-banner.jpg);
@@ -91,27 +101,29 @@ body
     margin-bottom: 25px;
 }
 
+/* each main website section will take up the entire width of the page */
 .main-content-section
 {
     display: inline-block;
     width: 100%;
 }
 
+/* defines a section for the section's title, taking up around a quarter of the page, which floats to the left */
 .section-title
 {
     float: left;
     font-size: 32px;
-    width: 27%;
-    height: 36px;
+    width: 26%;
 }
 
+/* the title text will float to the right of its quarter of the page */
 .section-title h2
 {
     float: right;
-    margin-right: 10px;
     margin-left: 10px;
 }
 
+/* defines a section for the section's content, taking up around three quarters of the page, which floats to the right and has a purple border on its left */
 .section-content
 {
     float: right;
@@ -122,6 +134,7 @@ body
     border-left: solid 4px var(--indigo);
 }
 
+/* items within the projects section will wrap around each other as the page is resized, with a small gap between them */
 #projects-showcase
 {
     display: flex;
@@ -129,6 +142,7 @@ body
     gap: 20px;
 }
 
+/* defines display settings for project items */
 .project
 {
     height: 250px;
@@ -136,18 +150,21 @@ body
     border: solid 7px var(--indigo);
 }
 
+/* defines alternative display settings for the headline project */
 .headline-project
 {
     height: 500px;
     flex: 1 1 1200px;
 }
 
+/* defines display settings for project title text */
 .project h3
 {
     font-size: 28px;
     margin-bottom: 10px;
 }
 
+/* defines where project titles and languages will appear in each project item, and defines display settings for them */
 .project div
 {
     display: inline-block;
@@ -157,11 +174,13 @@ body
     background-color: var(--indigo);
 }
 
+/* defines alternative title and language location for headline project */
 .headline-project div
 {
     margin-top: 370px;
 }
 
+/* defines background image display settings for challenge 1 project item */
 #challenge-1
 {
     background-image: url(./images/horiseon-social-solutions-preview-image.jpg);
@@ -169,6 +188,7 @@ body
     background-position: top;
 }
 
+/* defines background image display settings for prework study guide project item */
 #prework-study-guide
 {
     background-image: url(./images/prework-study-guide-preview-image.jpg);
@@ -176,6 +196,7 @@ body
     background-position: center;
 }
 
+/* defines background image display settings for placeholder project items */
 .placeholder
 {
     background-image: url(./images/placeholder-image-transparent.png);
@@ -183,6 +204,7 @@ body
     background-position: center;
 }
 
+/* defines display settings for contact information, displaying them side-by-side */
 #contact-info li
 {
     display: inline-block;
@@ -192,6 +214,7 @@ body
     margin-bottom: 10px;
 }
 
+/* colours links in contact info indigo */
 #contact-info a
 {
     color: var(--indigo);
