@@ -2,6 +2,179 @@
 ethan (average-kirigiri-enjoyer)
 SCS Boot Camp Module 2 Weekly Challenge - Professional Coding Portfolio
 Created 2023/07/17
-Last Edited 2023/07/17
+Last Edited 2023/07/20
 */
 
+:root
+{
+    --indigo: #5900ff;
+    --dark-grey: #292929;
+    --light-grey: #f3f3f3;
+}
+
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    font-family: Raleway;
+    font-size: 20px;
+    min-width: 540px;
+    color: var(--dark-grey);
+    background-color: var(--light-grey);
+}
+
+.header
+{
+    background-color: var(--dark-grey);
+}
+
+.header h1
+{
+    display: inline-block;
+    padding: 10px 15px 10px 30px;
+    margin: 15px 25px 15px 0px;
+    font-size: 48px;
+    color: var(--light-grey);
+    background-color: var(--indigo);
+}
+
+.header a
+{
+    color: var(--light-grey);
+    background-color: var(--dark-grey);
+    padding: 10px;
+}
+
+.header ul
+{
+    float: right;
+}
+
+.header li
+{
+    display: inline-block;
+    font-size: 32px;
+    margin-top: 32px;
+    margin-right: 22px;
+}
+
+.title-bar-image
+{
+    background-image: url(./images/sitting-at-greenpath-bench-wide-banner.jpg);
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 25px;
+}
+
+.main-content-section
+{
+    display: inline-block;
+    width: 100%;
+}
+
+.section-title
+{
+    float: left;
+    font-size: 32px;
+    width: 27%;
+    height: 36px;
+}
+
+.section-title h2
+{
+    float: right;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.section-content
+{
+    float: right;
+    padding-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 25px;
+    width: 70%;
+    border-left: solid 4px var(--indigo);
+}
+
+#projects-showcase
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project
+{
+    height: 250px;
+    flex: 1 1 500px;
+    border: solid 7px var(--indigo);
+}
+
+.headline-project
+{
+    height: 500px;
+    flex: 1 1 1200px;
+}
+
+.project h3
+{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.project div
+{
+    display: inline-block;
+    margin-top: 140px;
+    padding: 12px 16px 14px 18px;
+    color: var(--light-grey);
+    background-color: var(--indigo);
+}
+
+.headline-project div
+{
+    margin-top: 370px;
+}
+
+#challenge-1
+{
+    background-image: url(./images/horiseon-social-solutions-preview-image.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+#prework-study-guide
+{
+    background-image: url(./images/prework-study-guide-preview-image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.placeholder
+{
+    background-image: url(./images/placeholder-image-transparent.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#contact-info li
+{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+#contact-info a
+{
+    color: var(--indigo);
+}
