@@ -23,7 +23,8 @@ Last Edited 2023/07/20
 body
 {
     font-family: Raleway;
-    font-size: 24px;
+    font-size: 20px;
+    min-width: 540px;
 }
 
 .header h1
@@ -58,6 +59,21 @@ body
     margin-bottom: 25px;
 }
 
+.section-title
+{
+    display: inline-block;
+    font-size: 32px;
+    width: 27%; 
+    border: solid 2px var(--mint-green);
+}
+
+.section-title h2
+{
+    float: right;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 .main-content-section
 {
     display: block;
@@ -67,19 +83,6 @@ body
     margin-bottom: 25px;
     width: 70%;
     border-left: solid 4px var(--indigo);
-}
-
-.section-title
-{
-    display: inline-block;
-    font-size: 32px;
-    width: 27%; 
-}
-
-.section-title h2
-{
-    float: right;
-    margin-right: 15px;
 }
 
 #projects-showcase
@@ -134,4 +137,13 @@ body
     background-image: url(./images/placeholder-image-transparent.png);
     background-size: cover;
     background-position: center;
+}
+
+#contact-info li
+{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 25px;
+    margin-bottom: 10px;
 }
