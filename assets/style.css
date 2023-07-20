@@ -105,11 +105,17 @@ body
     flex: 1 1 1200px;
 }
 
+.project h3
+{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
 .project div
 {
     display: inline-block;
     margin-top: 140px;
-    padding: 10px 15px 12px 25px;
+    padding: 10px 15px 14px 18px;
     background-color: var(--indigo);
 }
 
