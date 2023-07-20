@@ -26,7 +26,7 @@ Last Edited 2023/07/19
     height: 400px;
     background-image: url(./images/sitting-at-greenpath-bench-wide-banner.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: left;
 }
 
 .main-content-section
@@ -61,21 +61,19 @@ Last Edited 2023/07/19
 {
     background-image: url(./images/horiseon-social-solutions-preview-image.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: local;
+    background-position: top;
 }
 
 #prework-study-guide
 {
     background-image: url(./images/prework-study-guide-preview-image.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .placeholder
 {
     background-image: url(./images/placeholder-image-transparent.png);
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
 }
