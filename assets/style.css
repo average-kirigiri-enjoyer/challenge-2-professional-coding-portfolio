@@ -20,6 +20,39 @@ Last Edited 2023/07/19
     margin: 0;
 }
 
+body
+{
+    font-family: Raleway;
+    font-size: 24px;
+}
+
+.header
+{
+    border: solid 3px #00ff83;
+}
+
+.header h1
+{
+    display: inline-block;
+    padding: 25px;
+    font-size: 48px;
+}
+
+.header ul
+{
+    float: right;
+    border: solid 3px #d5beff;
+}
+
+.header li
+{
+    font-size: 36px;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    border: solid 3px #5900ff;
+}
+
 .title-bar-image
 {
     width: 100%;
@@ -32,6 +65,7 @@ Last Edited 2023/07/19
 .main-content-section
 {
     float: right;
+    display: block;
     width: 80%;
 }
 
