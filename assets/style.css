@@ -50,25 +50,36 @@ body
 
 .title-bar-image
 {
-    width: 100%;
-    height: 400px;
     background-image: url(./images/sitting-at-greenpath-bench-wide-banner.jpg);
     background-size: cover;
     background-position: left;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 25px;
 }
 
 .main-content-section
 {
     display: block;
     float: right;
-    margin-right: 25px;
+    padding-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 25px;
     width: 70%;
+    border-left: solid 4px var(--indigo);
 }
 
 .section-title
 {
-    display: inline;
+    display: inline-block;
     font-size: 32px;
+    width: 27%; 
+}
+
+.section-title h2
+{
+    float: right;
+    margin-right: 15px;
 }
 
 #projects-showcase
@@ -82,7 +93,7 @@ body
 {
     height: 250px;
     flex: 1 1 500px;
-    border: solid 8px var(--ruby-red);
+    border: solid 7px var(--indigo);
 }
 
 .headline-project
@@ -96,7 +107,7 @@ body
     display: inline-block;
     margin-top: 140px;
     padding: 10px 15px 12px 25px;
-    background-color: var(--ruby-red);
+    background-color: var(--indigo);
 }
 
 .headline-project div
