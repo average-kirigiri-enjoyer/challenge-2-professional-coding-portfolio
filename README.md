@@ -30,4 +30,3 @@ https://meyerweb.com/eric/tools/css/reset/
 ## License
 
 Operates under a standard MIT license, refer to the LICENSE file in the repository for more information.
-
