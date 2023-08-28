@@ -180,6 +180,13 @@ body
     margin-top: 370px;
 }
 
+#project-1
+{
+    background-image: url(./images/project-1-website-preview.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
 /* defines background image display settings for challenge 1 project item */
 #challenge-1
 {
